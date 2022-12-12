@@ -6,11 +6,7 @@ public class TestaConta {
 		
 		Conta c1;
 		c1 = new Conta();
-		
-		c1.titular = new Cliente();
-		c1.titular.nome = "Hugo";
-		c1.titular.sobrenome = "Kuribayashi";
-		c1.titular.email = "hkuribayashi@gmail.com";
+		c1.titular = new Cliente("Hugo", "Kuribayashi", "hkuribayashi@gmail.com");
 		
 		c1.saca(1000.0);
 		c1.deposita(5000.0);
