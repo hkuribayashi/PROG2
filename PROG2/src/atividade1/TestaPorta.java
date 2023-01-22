@@ -1,4 +1,4 @@
-package atividades;
+package atividade1;
 
 public class TestaPorta {
 

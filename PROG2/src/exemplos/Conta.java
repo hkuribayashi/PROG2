@@ -7,6 +7,10 @@ public class Conta {
 	public double limite;
 	public Cliente titular;
 	
+	public Double getSaldo() {
+		return this.saldo;
+	}
+	
 	public boolean saca(double valor) {
 		if (this.saldo >= valor) {
 			this.saldo = this.saldo - valor;
