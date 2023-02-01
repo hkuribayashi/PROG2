@@ -1,4 +1,4 @@
-package exemplos;
+package exemplos3101;
 
 public class Cliente {
 
