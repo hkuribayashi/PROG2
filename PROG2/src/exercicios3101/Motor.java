@@ -1,4 +1,4 @@
-package exercicios;
+package exercicios3101;
 
 public class Motor {
 
