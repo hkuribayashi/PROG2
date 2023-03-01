@@ -18,7 +18,5 @@ public class Funcionario {
 	public void setCargaHoraria(Double cargaHoraria) {
 		this.cargaHoraria = cargaHoraria;
 	}
-	
-	
 
 }
