@@ -21,7 +21,7 @@ public class ExemploLista2 {
 		funcionarios.add(ana);
 		funcionarios.add(hugo);
 		
-		Collections.sort(funcionarios);
+		//Collections.sort(funcionarios);
 		
  		
 		

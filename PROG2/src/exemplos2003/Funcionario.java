@@ -1,6 +1,6 @@
 package exemplos2003;
 
-public abstract class Funcionario implements Comparable<Funcionario>{
+public abstract class Funcionario{
 
 	protected String nome;
 	protected Double salario;
