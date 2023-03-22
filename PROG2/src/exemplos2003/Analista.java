@@ -10,4 +10,16 @@ public class Analista extends Funcionario {
 		return this.salario * 0.13;
 	}
 
+	@Override
+	public int compareTo(Funcionario o) {
+		
+		// Se o objeto corrente (this) for maior que o parâmetro o, então retornar 1
+		
+		// Se o objeto corrente for menor que o parâmetro o, então retorna -1
+		
+		// Caso contrário retorne 0
+		
+		return 0;
+	}
+
 }
