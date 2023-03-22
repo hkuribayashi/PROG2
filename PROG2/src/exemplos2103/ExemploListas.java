@@ -1,4 +1,4 @@
-package exemplo2103;
+package exemplos2103;
 
 import java.util.ArrayList;
 import java.util.Arrays;

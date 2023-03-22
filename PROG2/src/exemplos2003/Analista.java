@@ -10,4 +10,6 @@ public class Analista extends Funcionario {
 		return this.salario * 0.13;
 	}
 
+	
+
 }
