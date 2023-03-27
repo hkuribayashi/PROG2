@@ -8,6 +8,25 @@ import java.util.Scanner;
 public class Sistema {
 	
 	private static List<Produto> produtos = new ArrayList<>();
+	
+	public static Double calcularSomaProdutos() {
+		Double soma = 0.0;
+		
+		for (Produto p: produtos) {
+			if (p instanceof Notebook) {
+				Notebook n1 = (Notebook) p;
+				soma += n1.getPreco() + n1.calcularImposto();
+			}else {
+				Desktop d1 = (Desktop) p;
+				soma += d1.getPreco() + d1.calcularImposto();
+				for (Monitor m: d1.getMonitores()) {
+					soma += m.getPreco() + m.calcularImposto();
+				}
+			}
+		}
+		
+		return soma;
+	}
 
 	public static void main(String[] args) {
 		
@@ -28,6 +47,9 @@ public class Sistema {
 				Sistema.produtos.add(n1);
 			}
 		}
+		
+		System.out.println("O valor total de produtos é: ");
+		System.out.println( Sistema.calcularSomaProdutos() );
 		
 		leitor.close();
 	}
