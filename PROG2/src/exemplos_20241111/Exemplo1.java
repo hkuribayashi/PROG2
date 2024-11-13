@@ -17,12 +17,10 @@ public class Exemplo1 {
 		p.fazAniversario();
 		System.out.println(p);
 		
-		Porta p1 = new Porta(70.0, 2.0, 0.01);
-		p1.abrir();
-		p1.fechar();
-		p1.pintar(Cor.PRETA);
-		System.out.println(p1);
+		Casa c1 = new Casa(p, Cor.AZUL);
+		System.out.println(c1);
 		
+		sc.close();
 	
 	}
 
