@@ -1,6 +1,7 @@
 package exemplos_20241209;
 
 import java.util.Date;
+import java.util.List;
 
 public class Emprestimo {
 
@@ -10,10 +11,14 @@ public class Emprestimo {
 	
 	private Usuario usuario;
 	
-	public Emprestimo(Date dataEmprestimo, Usuario usuario) {
+	private List<Exemplar> exemplares;
+	
+	public Emprestimo(Date dataEmprestimo, Usuario usuario, 
+			List<Exemplar> exemplares) {
 		this.dataEmprestimo = dataEmprestimo; 
 		this.dataDevolucao = null;
 		this.usuario = usuario;
+		this.exemplares = exemplares;
 	}
 
 	public Date getDataEmprestimo() {
