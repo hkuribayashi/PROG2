@@ -10,6 +10,8 @@ public class SistemaBiblioteca {
 		
 		Usuario h = new Usuario(121212, "Hugo Kuribayashi");
 		
+		
+		
 		List<String> listaAutores = new ArrayList<String>();
 		listaAutores.add("Fulano");
 		listaAutores.add("Ciclano");
@@ -30,6 +32,6 @@ public class SistemaBiblioteca {
 		
 		h.getHistoricoEmprestimos().add(e1);
 		
-		
+		System.out.println(h);
 	}
 }

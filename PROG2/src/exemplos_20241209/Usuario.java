@@ -41,6 +41,10 @@ public class Usuario {
 		this.historicoEmprestimos = historicoEmprestimos;
 	}
 	
-	
+	public String toString() {
+		return "Usuario[nome="+this.nome+", "+
+						"cpf="+this.cpf+", "+
+						"emprestimos=["+this.historicoEmprestimos+"] ]";
+	}
 	
 }
