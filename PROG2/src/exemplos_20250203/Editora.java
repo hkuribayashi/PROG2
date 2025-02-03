@@ -1,4 +1,4 @@
-package exemplos_20250103;
+package exemplos_20250203;
 
 public class Editora {
 
